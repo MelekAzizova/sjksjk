@@ -14,5 +14,8 @@ namespace Blog.Bussiness.Repositories.Interfaces
         IQueryable<T> GetAll(bool noTracking = true);
         Task CreateAscyn(T data);
         Task SaveAscyn();
+        Task<T> GetByIdAsync(int id, bool noTracking = true);
+        void Remove(T data);
+       
     }
 }

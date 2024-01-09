@@ -21,12 +21,36 @@ namespace Blog.API.Controllers
         {
             return Ok(_service.GetAll());
         }
-
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            try
+            {
+                return Ok(await _service.GetByIdAsync(id));
+            }
+            catch (Exception ex)
+            {
+                return Problem(ex.Message);
+            }
+        }
         [HttpPost]
         public async Task<IActionResult> Post(PostCreateDto dto)
         {
             await _service.CreateAsync(dto);
             return StatusCode(StatusCodes.Status201Created);
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                await _service.RemoveAsync(id);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return Problem(ex.Message);
+            }
         }
     }
 }

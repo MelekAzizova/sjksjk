@@ -1,6 +1,8 @@
 using Blog.DAL.Context;
 using Microsoft.EntityFrameworkCore;
 using Blog.Bussiness;
+using Blog.Core.Entities;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,9 +12,17 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<BlogContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("MSSql")));
+builder.Services.AddDbContext<BlogContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("MSSql")))
+    .AddIdentity<AppUser, IdentityRole>(options =>
+{
+    options.SignIn.RequireConfirmedAccount = false;
+    options.SignIn.RequireConfirmedPhoneNumber = false;
+    options.SignIn.RequireConfirmedEmail = false;
+}).AddDefaultTokenProviders().AddEntityFrameworkStores<BlogContext>();
+
 builder.Services.AddRepostory();
 builder.Services.AddServices();
+builder.Services.AddBusinessLayer();
 
 var app = builder.Build();
 

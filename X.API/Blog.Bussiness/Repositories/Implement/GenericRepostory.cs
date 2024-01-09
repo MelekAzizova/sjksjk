@@ -32,5 +32,17 @@ namespace Blog.Bussiness.Repositories.Implement
         {
             await _db.SaveChangesAsync();
         }
+
+        public async Task<T> GetByIdAsync(int id, bool noTracking = true)
+        {
+            return noTracking ? await Table.AsNoTracking().SingleOrDefaultAsync(t => t.Id == id) : await Table.FindAsync(id);
+        }
+
+        public void Remove(T data)
+        {
+            Table.Remove(data);
+        }
+
+       
     }
 }

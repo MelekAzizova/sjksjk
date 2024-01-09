@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj": {}
+    "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj": {
+    "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj",
+        "projectUniqueName": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj",
         "projectName": "Blog.Bussiness",
-        "projectPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj",
-        "packagesPath": "C:\\Users\\Melek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.Bussiness\\obj\\",
+        "projectPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj",
+        "packagesPath": "C:\\Users\\birinci novbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Melek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\birinci novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.DAL\\Blog.DAL.csproj": {
-                "projectPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.DAL\\Blog.DAL.csproj"
+              "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.DAL\\Blog.DAL.csproj": {
+                "projectPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.DAL\\Blog.DAL.csproj"
               }
             }
           }
@@ -43,6 +43,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,17 +81,17 @@
         }
       }
     },
-    "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.Core\\Blog.Core.csproj": {
+    "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Core\\Blog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.Core\\Blog.Core.csproj",
+        "projectUniqueName": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Core\\Blog.Core.csproj",
         "projectName": "Blog.Core",
-        "projectPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.Core\\Blog.Core.csproj",
-        "packagesPath": "C:\\Users\\Melek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.Core\\obj\\",
+        "projectPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Core\\Blog.Core.csproj",
+        "packagesPath": "C:\\Users\\birinci novbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Melek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\birinci novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,6 +116,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -118,17 +142,17 @@
         }
       }
     },
-    "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.DAL\\Blog.DAL.csproj": {
+    "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.DAL\\Blog.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.DAL\\Blog.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.DAL\\Blog.DAL.csproj",
         "projectName": "Blog.DAL",
-        "projectPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.DAL\\Blog.DAL.csproj",
-        "packagesPath": "C:\\Users\\Melek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.DAL\\obj\\",
+        "projectPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.DAL\\Blog.DAL.csproj",
+        "packagesPath": "C:\\Users\\birinci novbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Melek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\birinci novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,8 +166,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.Core\\Blog.Core.csproj": {
-                "projectPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\X.API\\Blog.Core\\Blog.Core.csproj"
+              "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Core\\Blog.Core.csproj": {
+                "projectPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Core\\Blog.Core.csproj"
               }
             }
           }
@@ -158,6 +182,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.25, )"

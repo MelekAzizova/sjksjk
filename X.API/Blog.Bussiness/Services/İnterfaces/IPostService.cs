@@ -13,5 +13,6 @@ namespace Blog.Bussiness.Services.İnterfaces
         public IQueryable<PostListItemDto> GetAll();
         public Task<PostDetailsDto> GetByIdAsync(int id);
         public Task CreateAsync(PostCreateDto Dto);
+        public Task RemoveAsync(int id);
     }
 }
