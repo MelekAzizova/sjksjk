@@ -11,5 +11,6 @@ namespace Blog.Bussiness.Services.İnterfaces
     {
 
         public Task RegisterAsync(RegisterDTO dto);
+        public Task<TokenDto> LoginAsync(LoginDto dto);
     }
 }

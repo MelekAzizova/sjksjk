@@ -14,5 +14,5 @@ namespace Blog.Bussiness.Services.İnterfaces
         public Task<PostDetailsDto> GetByIdAsync(int id);
         public Task CreateAsync(PostCreateDto Dto);
         public Task RemoveAsync(int id);
-    }
+           }
 }

@@ -26,5 +26,11 @@ namespace Blog.API.Controllers
             return Ok();
         }
 
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login(LoginDto dto)
+        {
+            return Ok(await _userServices.LoginAsync(dto));
+        }
+
     }
 }

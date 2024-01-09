@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Blog.Bussiness.DTOs.PostDto;
+using Blog.Bussiness.Exceptions.Common;
 using Blog.Bussiness.Repositories.Interfaces;
 using Blog.Bussiness.Services.İnterfaces;
 using Blog.Core.Entities;
@@ -33,18 +34,23 @@ namespace Blog.Bussiness.Services.İmplement
             return _mapper.Map<IQueryable<PostListItemDto>>(_repo.GetAll());
         }
 
-        public Task<PostDetailsDto> GetByIdAsync(int id)
+        public async Task<PostDetailsDto> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            if (id <= 0) throw new ArgumentException();
+            var data = await _repo.GetByIdAsync(id);
+            if (data == null) throw new NotFoundException<Post>();
+            return _mapper.Map<PostDetailsDto>(data);
         }
 
         public async Task RemoveAsync(int id)
         {
             if (id <= 0) throw new ArgumentException();
             var data = await _repo.GetByIdAsync(id, false);
-            if (data == null) throw new ArgumentNullException();
+            if (data == null) throw new NotFoundException<Post>();
+
             _repo.Remove(data);
             await _repo.SaveAscyn();
         }
+
     }
 }

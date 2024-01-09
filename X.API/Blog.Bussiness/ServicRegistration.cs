@@ -1,5 +1,7 @@
-﻿using Blog.Bussiness.ExternalServices.Implements;
+﻿using Blog.Bussiness.DTOs.PostDto;
+using Blog.Bussiness.ExternalServices.Implements;
 using Blog.Bussiness.ExternalServices.Interfaces;
+using Blog.Bussiness.Profiles;
 using Blog.Bussiness.Repositories.Implement;
 using Blog.Bussiness.Repositories.Interfaces;
 using Blog.Bussiness.Services.İmplement;
@@ -24,15 +26,16 @@ namespace Blog.Bussiness
             services.AddScoped<IPostService, PostService>();
             services.AddScoped<IUserServices, UserServices>();
             services.AddScoped<IEmailServices, EmailServices>();
-            services.AddScoped<AuthServices, AuthServices>();
+            services.AddScoped<IAuthServices, AuthService>();
+            services.AddScoped<ITokenServices, TokenService>();
             return services;
         }
 
         [Obsolete]
         public static IServiceCollection AddBusinessLayer(this IServiceCollection services)
         {
-            services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<TopicCreateDTOValidator>());
-            services.AddAutoMapper(typeof(TopicMappingProfile).Assembly);
+            services.AddFluentValidation(x => x.RegisterValidatorsFromAssemblyContaining<PostCreateDTOValidator>());
+            services.AddAutoMapper(typeof(PostMappingProfile).Assembly);
             return services;
         }
     }
