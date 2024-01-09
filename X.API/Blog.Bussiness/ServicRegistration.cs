@@ -20,9 +20,11 @@ namespace Blog.Bussiness
         }
         public static IServiceCollection AddServices(this IServiceCollection services)
         {
+
             services.AddScoped<IPostService, PostService>();
             services.AddScoped<IUserServices, UserServices>();
             services.AddScoped<IEmailServices, EmailServices>();
+            services.AddScoped<AuthServices, AuthServices>();
             return services;
         }
 

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Blog.DAL.Migrations
 {
     [DbContext(typeof(BlogContext))]
-    [Migration("20240109084319_CreateTable")]
-    partial class CreateTable
+    [Migration("20240109171008_CreatedTablw")]
+    partial class CreatedTablw
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

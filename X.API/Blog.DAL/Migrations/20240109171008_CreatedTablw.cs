@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Blog.DAL.Migrations
 {
-    public partial class CreateTable : Migration
+    public partial class CreatedTablw : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

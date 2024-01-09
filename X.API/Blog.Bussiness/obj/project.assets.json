@@ -152,12 +152,12 @@
         },
         "compile": {
           "ref/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtimeTargets": {
@@ -2296,19 +2296,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\birinci novbe\\.nuget\\packages\\": {}
+    "C:\\Users\\Melek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj",
+      "projectUniqueName": "C:\\Users\\Melek\\OneDrive\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj",
       "projectName": "Blog.Bussiness",
-      "projectPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj",
-      "packagesPath": "C:\\Users\\birinci novbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\obj\\",
+      "projectPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj",
+      "packagesPath": "C:\\Users\\Melek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\birinci novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Melek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2322,8 +2322,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.DAL\\Blog.DAL.csproj": {
-              "projectPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.DAL\\Blog.DAL.csproj"
+            "C:\\Users\\Melek\\OneDrive\\Desktop\\sjksjk\\X.API\\Blog.DAL\\Blog.DAL.csproj": {
+              "projectPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\sjksjk\\X.API\\Blog.DAL\\Blog.DAL.csproj"
             }
           }
         }
