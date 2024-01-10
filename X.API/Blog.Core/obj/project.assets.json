@@ -819,19 +819,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Melek\\.nuget\\packages\\": {}
+    "C:\\Users\\birinci novbe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Melek\\OneDrive\\Desktop\\sjksjk\\X.API\\Blog.Core\\Blog.Core.csproj",
+      "projectUniqueName": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Core\\Blog.Core.csproj",
       "projectName": "Blog.Core",
-      "projectPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\sjksjk\\X.API\\Blog.Core\\Blog.Core.csproj",
-      "packagesPath": "C:\\Users\\Melek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\sjksjk\\X.API\\Blog.Core\\obj\\",
+      "projectPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Core\\Blog.Core.csproj",
+      "packagesPath": "C:\\Users\\birinci novbe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Melek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\birinci novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

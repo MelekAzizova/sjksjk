@@ -165,12 +165,12 @@
         },
         "compile": {
           "ref/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtimeTargets": {
@@ -632,12 +632,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -709,12 +709,12 @@
         },
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "frameworkReferences": [
@@ -728,12 +728,12 @@
         },
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -741,12 +741,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "frameworkReferences": [
@@ -2845,19 +2845,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Melek\\.nuget\\packages\\": {}
+    "C:\\Users\\birinci novbe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Melek\\OneDrive\\Desktop\\sjksjk\\X.API\\Blog.API\\Blog.API.csproj",
+      "projectUniqueName": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.API\\Blog.API.csproj",
       "projectName": "Blog.API",
-      "projectPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\sjksjk\\X.API\\Blog.API\\Blog.API.csproj",
-      "packagesPath": "C:\\Users\\Melek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\sjksjk\\X.API\\Blog.API\\obj\\",
+      "projectPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.API\\Blog.API.csproj",
+      "packagesPath": "C:\\Users\\birinci novbe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Melek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\birinci novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2871,8 +2871,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Melek\\OneDrive\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj": {
-              "projectPath": "C:\\Users\\Melek\\OneDrive\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj"
+            "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj": {
+              "projectPath": "C:\\Users\\birinci novbe\\Desktop\\sjksjk\\X.API\\Blog.Bussiness\\Blog.Bussiness.csproj"
             }
           }
         }

@@ -1,6 +1,8 @@
 ﻿using Blog.Bussiness.DTOs.PostDto;
 using Blog.Bussiness.Repositories.Interfaces;
 using Blog.Bussiness.Services.İnterfaces;
+using Blog.Core.Enums;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -33,6 +35,7 @@ namespace Blog.API.Controllers
                 return Problem(ex.Message);
             }
         }
+        [Authorize(Roles =nameof(Roles.Admin))]
         [HttpPost]
         public async Task<IActionResult> Post(PostCreateDto dto)
         {

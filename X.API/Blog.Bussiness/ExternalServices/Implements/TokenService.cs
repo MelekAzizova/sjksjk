@@ -21,10 +21,11 @@ namespace Blog.Bussiness.ExternalServices.Implements
         }
 
         IConfiguration _configuration { get; }
-        public TokenDto CreateToken(AppUser user)
+        public TokenDto CreateToken(TokenParamsDto dto)
         {
             List<Claim> claims = new List<Claim>();
-            claims.Add(new Claim(ClaimTypes.Name, user.UserName));
+            claims.Add(new Claim(ClaimTypes.Name,dto.User.UserName));
+            claims.Add(new Claim(ClaimTypes.Role, dto.Role));
 
             SymmetricSecurityKey securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SigningKey"]));
             SigningCredentials credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
